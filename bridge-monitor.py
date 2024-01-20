@@ -1,17 +1,12 @@
 from systemd import journal
 from datetime import datetime, timedelta
 from time import sleep
-import telegram
 import requests
 
 
 TELEGRAM_TOKEN      = ''
 CHAT_ID             = ''
 
-
-
-
-bot=telegram.Bot(token=TELEGRAM_TOKEN)
 
 def record_status(msg):
     # sending a telgram message
